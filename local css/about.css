@@ -1,0 +1,192 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: black;
+
+  overflow-x: hidden;
+}
+
+#navbar {
+  background-image: linear-gradient(to right, black, white);
+}
+
+.dd {
+  color: skyblue;
+  transition: all 0.3s;
+}
+
+.dd:hover {
+  color: orange;
+  transform: translateY(-5px);
+}
+
+.menu_font_awe {
+  color: black;
+}
+
+.dba {
+  color: black;
+}
+
+.logo_animate {
+  animation-name: logo;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+}
+
+.abrow1_txt {
+  background-color: yellow;
+}
+
+.abrow1_txt h1{
+  font-family: 'Fredoka One', cursive;
+}
+
+
+.container h1{
+  font-family: 'Fredoka One', cursive;
+}
+
+
+.ls{
+  font-family: 'Fredoka One', cursive;
+}
+
+.fa_list i {
+  color: yellow;
+}
+
+.abrow2 {
+  background-color: orange;
+}
+
+.footers {
+  background-color: #0000c1;
+}
+
+.p_red {
+  color: white;
+  padding: 20px;
+  background-color: orange;
+  border-radius: 100%;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.p_red:hover {
+  background-color: red;
+}
+
+input[type="text"] {
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+.link_3 a {
+  color: white;
+  font-size: 18px;
+}
+
+.f_img {
+  transition: all 1s;
+  cursor: crosshair;
+}
+
+.f_img:hover {
+  transform: translateX(15px);
+}
+
+.fb,
+.tw,
+.insta,
+.you,
+.link {
+  transition: all 0.7s;
+}
+
+.fb:hover {
+  background-color: black;
+  color: #3b5998;
+}
+
+.tw:hover {
+  color: #00aced;
+  background-color: black;
+}
+
+.insta:hover {
+  color: #e95950;
+  background-color: black;
+}
+
+.you:hover {
+  color: #ff0000;
+  background-color: black;
+}
+
+.link:hover {
+  color: #0e76a8;
+  background-color: black;
+}
+
+
+.out_most{
+    background-color: white;
+    padding: 20px;
+    color: black;
+    border-radius: 100%;
+}
+
+.up{
+    padding: 20px;
+   border: none;
+   outline: none;
+   background-color: white;
+   color: black;
+   border-radius: 100%;
+   cursor: pointer;
+   transition: all 0.5s;
+}
+
+
+.up:hover{
+   color: black;
+   background-color: orange;
+}
+
+
+.ab_bg{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+
+
+@keyframes logo {
+  from {
+    transform: rotateX(0deg);
+  }
+
+  to {
+    transform: rotateY(360deg);
+  }
+}

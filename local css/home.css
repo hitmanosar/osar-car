@@ -1,0 +1,400 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: black;
+  
+  overflow-x: hidden;
+}
+
+#navbar {
+  background-image: linear-gradient(to right, black, white);
+}
+
+.dd {
+  color: skyblue;
+  transition: all 0.3s;
+}
+
+.dd:hover {
+  color: orange;
+  transform: translateY(-5px);
+}
+
+.menu_font_awe {
+  color: black;
+}
+
+.dba {
+  color: black;
+}
+
+
+.popular{
+  display: none;
+}
+
+.latests{
+  display: none;
+}
+
+
+.upcoming{
+  display: flex;
+}
+
+
+
+
+.logo_animate {
+  animation-name: logo;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+}
+
+.cc {
+  border: none;
+  outline: none;
+  transition: all 0.5s;
+}
+
+
+.f_p {
+  color: #ffb400;
+  font-family: 'Merriweather', serif;
+}
+
+
+.f_h1{
+  color: #ffb400;
+  font-family: 'Fredoka One', cursive;
+}
+
+.cd,
+.ca,
+.ce,.cb,.cf,.cg {
+  transition: all 0.5s;
+}
+
+.cb{
+  background-color: pink;
+
+}
+
+.ch4{
+  color: purple;
+}
+
+.cg{
+  background-color: orangered;
+}
+
+.hover_box{
+   transition: all 0.5s;
+}
+
+.hover_box:hover{
+  width: 20%;
+}
+
+
+.cg:hover{
+  box-shadow: 0px 0px 20px orangered, 0px 0px 20px orangered, 0px 0px 20px orangered;
+}
+
+.cf:hover{
+  box-shadow: 0px 0px 20px white, 0px 0px 20px white, 0px 0px 20px white;
+}
+
+
+.cb:hover{
+  box-shadow: 0px 0px 20px pink, 0px 0px 20px pink, 0px 0px 20px pink;
+}
+
+
+
+.ca:hover {
+  box-shadow: 0px 0px 20px yellow, 0px 0px 20px yellow, 0px 0px 20px yellow;
+}
+
+.ce:hover {
+  box-shadow: 0px 0px 20px blue, 0px 0px 20px blue, 0px 0px 20px blue;
+}
+
+.cd:hover {
+  box-shadow: 0px 0px 20px red, 0px 0px 20px red, 0px 0px 20px red;
+}
+
+.footers {
+  background-color: #0000c1;
+}
+
+.fa_list i {
+  color: yellow;
+}
+
+.p_red {
+  color: white;
+  padding: 20px;
+  background-color: orange;
+  border-radius: 100%;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.p_red:hover {
+  background-color: red;
+}
+
+input[type="text"] {
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+.next,
+.prev {
+  width: 100px;
+}
+
+.link_3 a {
+  color: white;
+  font-size: 18px;
+}
+
+
+.out_most{
+    background-color: white;
+    padding: 20px;
+    color: black;
+    border-radius: 100%;
+}
+
+.b_list{
+  outline: none;
+  border: none;
+  padding: 8px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: #FF0000;
+ color: aliceblue;
+ transition: all 0.5s;
+ overflow: hidden;
+ width: 50%;
+}
+
+
+.del{
+  text-decoration: line-through;
+  margin-right: 10px;
+}
+
+
+.search{
+  outline: none;
+  border: none;
+  margin: 0px auto;
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  transition: all 0.5s;
+  overflow: hidden;
+  
+}
+
+
+.search:hover{
+  transform: scale(1.1,1.1) translate(0px,5px);
+  background-color: blue;
+  box-shadow: 0px 0px 50px blue ,0px 0px 50px blue,0px 0px 20px blue;
+}
+
+.img_slide{
+  border: none;
+  outline: none;
+  padding:10px;
+ 
+  width: 50%;
+}
+
+
+
+
+.gl_bg{
+  background-color: yellow;
+}
+
+
+.search_box{
+  background-color:  #4d004d;
+}
+
+
+.b_list:hover{
+  transform: scale(1.1,1.1) translate(0px,5px);
+  box-shadow:0px 0px 50px #FF0000, 0px 0px 50px #FF0000, 0px 0px 20px #FF0000 ;
+}
+
+
+.list_car{
+  background-image: linear-gradient(black 50% ,blue 20% );
+  
+}
+
+.auto_t{
+  font-family: 'Fredoka One', cursive;
+}
+
+
+.auto_p{
+  font-family: 'Merriweather', serif;
+}
+
+
+.img_sl_h1{
+  font-family: 'Fredoka One', cursive;
+}
+
+
+.img_sl_h3{
+  font-family: 'Carter One', cursive;
+}
+
+.list_car h1{
+  font-family: 'Fredoka One', cursive;
+}
+
+
+
+.fb,.tw,.insta,.you,.link{
+    transition: all 0.7s;
+}
+
+.up{
+    padding: 20px;
+   border: none;
+   outline: none;
+   background-color: white;
+   color: black;
+   border-radius: 100%;
+   cursor: pointer;
+   transition: all 0.5s;
+}
+
+
+.up:hover{
+   color: black;
+   background-color: orange;
+}
+
+
+.fb:hover{
+   background-color: black;
+   color: #3b5998;
+}
+
+.tw:hover{
+  color: #00aced;
+  background-color: black;
+
+}
+
+.insta:hover{
+    color: #e95950;
+    background-color: black;
+}
+
+.you:hover{
+    color: #FF0000;
+    background-color: black;
+}
+
+.link:hover{
+    color:#0e76a8;
+    background-color: black;
+}
+
+
+.latest{
+  padding: 20px;
+}
+
+.latest h2{
+  font-family: 'Fredoka One', cursive;
+}
+
+.latest h1{
+  font-family: 'Fredoka One', cursive;
+}
+
+.we_are h2{
+  font-family: 'Fredoka One', cursive;
+}
+
+
+.we_are{
+ 
+  padding: 100px;
+  border-radius: 20px;
+  width: 90%;
+  background-image: url('../photo/bbg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.l_o::before{
+  content: '$1M/Toyota Prius/Fuel(Gasoline)/Year(2015)' ;
+  color: white;
+  width: auto;
+  height: 50px;
+  position: absolute;
+  
+  bottom: 0px;
+  padding: 10px ;
+  background-color: rgba(0, 0,255, 0.5);;
+}
+
+
+.specs{
+    color: yellow;
+}
+
+.l_p::before{
+  content: '$1.5M/Red Ferrari/Fuel(Gasoline)/Year(2018)' ;
+  color: white;
+  width: auto;
+  height: 50px;
+  position: absolute;
+  
+  bottom: 0px;
+  padding: 10px ;
+  background-color: rgba(255, 0,0, 0.5);;
+}
+
+.f_img {
+  transition: all 1s;
+  cursor: crosshair;
+}
+
+.f_img:hover {
+  transform: translateX(15px);
+}
+
+@keyframes logo {
+  from {
+    transform: rotateX(0deg);
+  }
+
+  to {
+    transform: rotateY(360deg);
+  }
+}
